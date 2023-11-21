@@ -1,0 +1,8 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/base",
+  "capAdd": [ "ALL" ],
+  "securityOpt": [ "seccomp=unconfined", "apparmor=unconfined" ],
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  }
+}
